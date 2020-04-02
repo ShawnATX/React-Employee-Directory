@@ -1,8 +1,6 @@
 import React from 'react'
 
 const Employee = (props) => {
-    console.log(props.persons.length);
-
     const employees = props.persons.map((employee) =>
         <div key={employee.id.value} className="col-lg-3 col-md-4 col-sm-12 my-4 mx-4">
             <div className="card" style={{ width: "18rem" }}>
